@@ -1,0 +1,17 @@
+{
+    "name": "valentine-app",
+    "version": "1.0.0",
+    "description": "Valentine Yes No App",
+    "main": "hosting/server.js",
+    "scripts": {
+        "start": "node hosting/server.js"
+    },
+    "engines": {
+        "node": "22.x"
+    },
+    "dependencies": {
+        "dotenv": "^17.2.3",
+        "express": "^4.18.2",
+        "nodemailer": "^6.9.8"
+    }
+}
